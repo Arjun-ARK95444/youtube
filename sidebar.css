@@ -1,0 +1,28 @@
+.sidebar{
+    top: 60px;
+    left: 0px;
+    bottom: 0px;
+    width: 80px;
+    z-index: 101;
+    position: fixed;
+}
+.sidebar-link{
+height: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 25px;
+cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: lightgrey;
+    border-radius: 5%;
+}
+.homeico{
+    width: 20px;
+}
+.dd{
+    margin-top: 2px;
+    font-weight: 200;
+    font-size: small;
+}
